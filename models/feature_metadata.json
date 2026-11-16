@@ -1,0 +1,125 @@
+{
+    "best_model_name": "Linear Regression (Baseline)",
+    "categorical_features": [
+        "district",
+        "crop",
+        "season"
+    ],
+    "numeric_features": [
+        "year",
+        "area"
+    ],
+    "transformed_features": [
+        "year",
+        "area",
+        "district_ariyalur",
+        "district_coimbatore",
+        "district_cuddalore",
+        "district_dharmapuri",
+        "district_dindigul",
+        "district_erode",
+        "district_kanchipuram",
+        "district_kanniyakumari",
+        "district_karur",
+        "district_krishnagiri",
+        "district_madurai",
+        "district_nagapattinam",
+        "district_namakkal",
+        "district_perambalur",
+        "district_pudukkottai",
+        "district_ramanathapuram",
+        "district_salem",
+        "district_sivaganga",
+        "district_thanjavur",
+        "district_the_nilgiris",
+        "district_theni",
+        "district_thoothukudi",
+        "district_tiruchirappalli",
+        "district_tirunelveli",
+        "district_tiruppur",
+        "district_tiruvallur",
+        "district_tiruvannamalai",
+        "district_tiruvarur",
+        "district_vellore",
+        "district_villupuram",
+        "district_virudhunagar",
+        "crop_total_group",
+        "season_whole_year"
+    ],
+    "available_districts": [
+        "ariyalur",
+        "chengalpattu",
+        "chennai",
+        "coimbatore",
+        "cuddalore",
+        "dharmapuri",
+        "dindigul",
+        "erode",
+        "kallakurichi",
+        "kanchipuram",
+        "kanniyakumari",
+        "karur",
+        "krishnagiri",
+        "madurai",
+        "mayiladuthurai",
+        "nagapattinam",
+        "namakkal",
+        "perambalur",
+        "pudukkottai",
+        "ramanathapuram",
+        "ranipet",
+        "salem",
+        "sivaganga",
+        "tenkasi",
+        "thanjavur",
+        "the_nilgiris",
+        "theni",
+        "thoothukudi",
+        "tiruchirappalli",
+        "tirunelveli",
+        "tirupathur",
+        "tiruppur",
+        "tiruvallur",
+        "tiruvannamalai",
+        "tiruvarur",
+        "vellore",
+        "villupuram",
+        "virudhunagar"
+    ],
+    "available_crops": [
+        "total_group"
+    ],
+    "available_seasons": [
+        "whole_year"
+    ],
+    "training_years": [
+        2000,
+        2016
+    ],
+    "validation_years": [
+        2017,
+        2019
+    ],
+    "test_years": [
+        2020,
+        2022
+    ],
+    "test_metrics": {
+        "mae_kg_ha": 953.47,
+        "rmse_kg_ha": 1226.33,
+        "r2_score": -0.0262,
+        "relative_error_pct": 26.67,
+        "mean_actual_kg_ha": 3575.42
+    },
+    "area_stats": {
+        "min": 11.0,
+        "max": 231353.0,
+        "mean": 84415.28212290503,
+        "median": 78674.5
+    },
+    "yield_stats": {
+        "min": 0.0,
+        "max": 9866.83,
+        "mean": 3207.986522346368
+    }
+}

@@ -1,0 +1,4 @@
+model_name,train_mae_kg_ha,train_rmse_kg_ha,train_r2_score,val_mae_kg_ha,val_rmse_kg_ha,val_r2_score,val_relative_error_pct
+Linear Regression (Baseline),670.63,913.27,0.4631,874.24,1319.33,0.2868,23.41
+XGBoost Regressor,341.03,458.65,0.8646,1431.31,1831.31,-0.3742,38.33
+Random Forest Regressor,408.1,539.86,0.8124,1656.16,2081.53,-0.7754,44.35
