@@ -1,0 +1,9 @@
+step_number,rule_applied,description,affected_records
+1,RAW_FILE_INSPECTION,Inspected raw HTML table with 38 district rows and 72 MultiIndex columns.,38
+2,COLUMN_STANDARDIZATION,Flattened MultiIndex columns into standard strings and prepared lowercase snake_case mappings.,72
+3,UNPIVOT_WIDE_TO_LONG,Reshaped 38 district rows across 23 years into 874 standard long records.,874
+4,DISTRICT_STANDARDIZATION,Standardized 38 district names to lowercase snake_case while preserving original names.,38
+5,YIELD_CALCULATION,Calculated yield_kg_ha using (production_tonnes * 1000 / area_ha) without assuming missing production is zero.,874
+6,VALIDATE_NON_NEGATIVE,"Validated non-negative values: negative area=0, negative production=0, negative yield=0.",0
+7,VALIDATE_REPORTED_ZERO_YIELDS,Detected 4 records where reported yield was 0.0 despite missing production; kept calculated yield as NaN.,4
+8,IDENTIFY_BIFURCATION_GAPS,"Documented missing historical records for newly created districts (e.g. Tenkasi, Chengalpattu, Kallakurichi, Mayiladuthurai, Ranipet, Tirupathur) prior to administrative formation.",154

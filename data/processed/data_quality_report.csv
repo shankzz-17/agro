@@ -1,0 +1,19 @@
+metric,value
+Source File,apy_total_group_report.xls
+Original Rows (Districts),38
+Original Columns (MultiIndex),72
+Standardized Long Records,874
+Number of Districts,38
+Number of Historical Years,23
+Historical Years Range,2000 (2000 - 2001) to 2022 (2022 - 2023)
+Duplicate Rows (district-year-crop-season),0
+Valid Agricultural Observations (Area > 0),720
+Missing Area Records (Pre-bifurcation / Urban),154
+Missing Area Percentage,17.62%
+Missing Production Records,158
+Missing Production Percentage,18.08%
+Records with Missing Production but Positive Area,4
+Valid Calculated Yield Records (kg/ha),716
+Negative Area / Production / Yield Records,0
+Measurement Units Reconciled,Area: Hectare | Production: Tonne | Yield: kg/ha
+Crop Coverage,Total Group Report (Aggregate). Individual crop breakdowns require crop-wise APY dataset.
